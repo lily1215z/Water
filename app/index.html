@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Water</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+
+        <a class="header__logo" href="#">
+          <picture>
+            <source srcset="images/drop.png" media="(max-width: 760px)">
+            <img src="images/Logo.png" alt="logo">
+          </picture>
+        </a>
+        <div class="header__menu menu">
+          <div class="menu__icon icon-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#" class="menu__link">Акции</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Игра</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Покупателям</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Быстрый заказ</a></li>
+            </ul>
+          </nav>
+        </div>
+        <a class="header__tel" href="tel:88005516582">8 (800) 551 65 82</a>
+        <a class="header__basket" href="#"><span>Корзина</span>
+        </a>
+
+      </div>
+    </div>
+  </header>
+  <section class="main">
+    <div class="container">
+      <div class="main__inner">
+        <h3 class="main__title">Успей заказать</h3>
+        <h4 class="main__subtitle">1,5 литра в день не меньше</h4>
+      </div>
+    </div>
+  </section>
+  <section class="form">
+    <div class="container">
+      <h4 class="form__title">Пожалуйста, выберите свой регион:</h4>
+      <form>
+        <select class="form__region" name="region" id="">
+          <option value="Novosibir">Новосибирская область</option>
+          <option value="Moscow">Московская область</option>
+          <option value="Piter">Санк-Петербург</option>
+        </select>
+        <button class="form__btn">Выбрать</button>
+      </form>
+    </div>
+  </section>
+  <section class="shares">
+    <div class="container">
+      <h4 class="shares__title title">Акции</h4>
+      <div class="shares__inner">
+
+        <div class="shares__item">
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/01.jpg" alt="01">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Вода питьевая "Святой Источник" 0,5л негаз. 12 бут.</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">342,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="290.76" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/02.jpg" alt="02">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Боржоми 1,25л ПЭТ</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">852,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="724.20" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/03.jpg" alt="03">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Боржоми 1л ПЭТ</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">762,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="647.70" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/04.jpg" alt="04">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Вода питьевая "Святой Источник" 0,5л газ. 12 бут.</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">342,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="290.76" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/05.jpg" alt="05">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Чай Greenfield Golden Ceylon 100 пак.</h5>
+                <div class="shares-block__price-box">
+                  <input class="shares-block__new-price" type="button" value="449.00" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/06.jpg" alt="06">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Кулер VATTEN V41WE</h5>
+                <div class="shares-block__price-box">
+                  <input class="shares-block__new-price" type="button" value="9990.00" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shares__item">
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/01.jpg" alt="01">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Вода питьевая "Святой Источник" 0,5л негаз. 12 бут.</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">342,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="290.76" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/02.jpg" alt="02">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Боржоми 1,25л ПЭТ</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">852,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="724.20" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/03.jpg" alt="03">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Боржоми 1л ПЭТ</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">762,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="647.70" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/04.jpg" alt="04">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Вода питьевая "Святой Источник" 0,5л газ. 12 бут.</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">342,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="290.76" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/05.jpg" alt="05">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Чай Greenfield Golden Ceylon 100 пак.</h5>
+                <div class="shares-block__price-box">
+                  <input class="shares-block__new-price" type="button" value="449.00" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/06.jpg" alt="06">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Кулер VATTEN V41WE</h5>
+                <div class="shares-block__price-box">
+                  <input class="shares-block__new-price" type="button" value="9990.00" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="shares__item">
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/01.jpg" alt="01">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Вода питьевая "Святой Источник" 0,5л негаз. 12 бут.</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">342,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="290.76" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/02.jpg" alt="02">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Боржоми 1,25л ПЭТ</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">852,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="724.20" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/03.jpg" alt="03">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Боржоми 1л ПЭТ</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">762,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="647.70" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/04.jpg" alt="04">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Вода питьевая "Святой Источник" 0,5л газ. 12 бут.</h5>
+                <div class="shares-block__price-box">
+                  <del class="shares-block__old-price">342,00 руб.</del>
+                  <input class="shares-block__new-price" type="button" value="290.76" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                  <div class="shares-block__sale">-15%</div>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/05.jpg" alt="05">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Чай Greenfield Golden Ceylon 100 пак.</h5>
+                <div class="shares-block__price-box">
+                  <input class="shares-block__new-price" type="button" value="449.00" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="shares__card">
+            <div class="shares__hit">хит</div>
+            <div class="shares__box">
+              <img src="images/shares/06.jpg" alt="06">
+            </div>
+            <div class="shares__descr">
+              <div class="shares__block shares-block">
+                <h5 class="shares-block__title">Кулер VATTEN V41WE</h5>
+                <div class="shares-block__price-box">
+                  <input class="shares-block__new-price" type="button" value="9990.00" id="num" name="num">
+                  <span class="shares-block__money">руб</span>
+                </div>
+              </div>
+              <div class="shares__buy">
+                <div class="shares__count">
+                  <input type="button" id="buttonCountPlus" value="+">
+                  <div class="shares__num" id="buttonCountNumber">1</div>
+                  <input type="button" id="buttonCountMinus" value="-">
+                  <input type="hidden" value="1" id="num" name="num">
+                </div>
+                <div class="shares__btn">В корзину</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="catalog">
+    <div class="container">
+      <h4 class="catalog__title title">Каталог</h4>
+      <div class="catalog__inner">
+        <div class="catalog__item">
+          <a class="catalog__link" href="#">КОМБО-НАБОРЫ</a>
+        </div>
+        <div class="catalog__item catalog__item--bottle">
+          <a class="catalog__link" href="#">ВОДА В БУТЫЛЯХ 19Л</a>
+        </div>
+        <div class="catalog__item catalog__item--bottle">
+          <a class="catalog__link" href="#">ВОДА В БУТЫЛКАХ</a>
+        </div>
+        <div class="catalog__item">
+          <a class="catalog__link" href="#">ОБОРУДОВАНИЕ ДЛЯ ВОДЫ </a>
+        </div>
+        <div class="catalog__item">
+          <a class="catalog__link" href="#">СОПУТСТВУЮЩИЕ ТОВАРЫ</a>
+        </div>
+        <div class="catalog__item">
+          <a class="catalog__link" href="#">УСЛУГИ</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container">
+      <h4 class="about__title title">O нас</h4>
+      <div class="about__inner">
+        <p class="about__text"><a href="#" target="_blank">MyWatershop.ru</a>- сервис доставки воды, кулеров и
+          сопутствующих товаров от
+          лидера рынка бутилированной воды России - IDS Borjomi Russia. В продуктовой линейке динамично развивающейся
+          компании – природная питьевая вода «Святой Источник», минеральная вода торговых марок «Боржоми» и
+          «Чистозерье».
+        </p>
+        <p class="about__text">На
+          <a href="#" target="_blank">MyWatershop.ru</a>
+          Вы можете заказать питьевую и
+          минеральную воду с доставкой на
+          дом и в офис. Мы работаем в Новосибирске и других городах России. В интернет-магазине представлен большой
+          ассортимент воды для дома, офиса и мероприятий: природная питьевая вода, минеральная вода, питьевая с
+          добавлением сока, для занятий спортом, а также вода для детей с рождения. Оформить заказ можно в любое удобное
+          для Вас время. Служба доставки воды «Святой Источник» привезет ее по указанному адресу.
+        </p>
+        <p class="about__text">
+          <span>«Святой Источник»</span>
+          – это природная питьевая вода с оптимальным содержанием солей и микроэлементов.
+          Вода добывается из артезианских скважин, после чего проходит бережную очистку, розлив и качественную упаковку.
+        </p>
+        <p class="about__text">
+          <span>«Боржоми»</span>
+          «Боржоми» – легендарная минеральная вода вулканического
+          происхождения, которой по природным меркам уже более 1500 лет, ее знают и любят миллионы людей по всему миру.А
+        </p>
+        <div class="about__subtitle">Для того, чтобы приобрести воду на MyWatershop.ru необходимо:</div>
+        <ul class="about__box">
+          <li class="about__item"> <span class="about__num">1.</span>Зарегистрироваться на сайте</li>
+          <li class="about__item"><span class="about__num">2.</span>Выбрать продукцию.</li>
+          <li class="about__item"><span class="about__num">3.</span>Оформить заказ, указав время доставки и способ
+            оплаты.</li>
+        </ul>
+        <p class="about__text">
+          * Доставка по Новосибирску осуществляется бесплатно. Минимальный размер заказа природной воды «Святой
+          Источник» и минеральной воды «Боржоми» – от 2 бутылей 19 л или 4-х упаковок воды 0,33-5 л в зависимости от
+          района доставки. Также более подробно о минимальном заказе Вы можете узнать в своем «Личном кабинете» после
+          регистрации или авторизации на сайте. В зависимости от района доставки, время ожидания заказа – от 2 часов.
+          При выборе даты и времени доставки на сайте используется автоматическая система расчета, которая подскажет
+          доступные интервалы времени.
+        </p>
+        <p class="about__text">Позаботьтесь о себе и своих близких, заказывайте качественную воду на <a href="#"
+            target="_blank">MyWatershop.ru</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="partner">
+    <div class="container">
+      <h4 class="partner__title title">Нам доверяют</h4>
+      <div class="partner__inner">
+        <div class="partner__item">
+          <img class="partner__item--gas" src="images/gazprom.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--zsan" src="images/zsan.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--ab" src="images/ab.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--wbd" src="images/wbd.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--alfa" src="images/alfabank.png" alt="alfabank">
+        </div>
+
+        <div class="partner__item">
+          <img class="partner__item--gas" src="images/gazprom.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--zsan" src="images/zsan.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--ab" src="images/ab.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--wbd" src="images/wbd.png" alt="gazprom">
+        </div>
+        <div class="partner__item">
+          <img class="partner__item--alfa" src="images/alfabank.png" alt="alfabank">
+        </div>
+
+      </div>
+    </div>
+  </section> -->
+
+  <section class="partners">
+    <div class="container">
+      <h4 class="partners__title title">Нам доверяют</h4>
+      <div class="partners__inner">
+        <img class="partners__item--gas" src="images/gazprom.png" alt="gazprom">
+        <img class="partners__item--zsan" src="images/zsan.png" alt="gazprom">
+        <img class="partners__item--ab" src="images/ab.png" alt="gazprom">
+        <img class="partners__item--wbd" src="images/wbd.png" alt="gazprom">
+        <img class="partners__item--alfa" src="images/alfabank.png" alt="alfabank">
+      </div>
+    </div>
+  </section>
+
+  <section class="order">
+    <div class="container">
+      <h4 class="order__title title">Быстрый заказ</h4>
+      <div class="order__box">
+        <p class="order__text">
+          Быстрый заказ воды в <a href="#"> MyWatherShop.ru</a> это очень просто!
+        </p>
+        <p class="order__text">
+          Укажите контактную информацию, а оператор call-центра перезвонит вам и уточнит детали заказа.
+        </p>
+      </div>
+      <form class="order__form">
+        <div class="order__block">
+          <label class="order__label" for="name">Ваше имя</label>
+          <input class="order__input" type="text" name="name" id="name" placeholder="Алексей">
+        </div>
+
+        <div class="order__block">
+          <label class="order__label" for="tel">Номер телефона</label>
+          <input class="order__input" type="tel" id="tel" placeholder="8 - 999 - 531 - 25 -41">
+        </div>
+
+        <div class="order__block">
+          <label class="order__label" for="email">E - mail</label>
+          <input class="order__input" type="email" id="email" placeholder="alexeev.alexei@gmail.com">
+        </div>
+
+        <div class="order__block">
+          <label class="order__label" for="adress">Адрес доставки</label>
+          <input class="order__input" type="text" name="adress" id="adress" placeholder="ул.Варламова, д.5, кв.30">
+        </div>
+
+        <div class="order__block">
+          <label class="order__label" for="text">Комментарий к заказу</label>
+          <textarea class="order__input order__input--textarea" name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+
+        <label for="checkbox"></label>
+        <input class="order__check option-input checkbox" type="checkbox" name="checkbox" id="checkbox">
+        <span class="order__checkbox">Я даю согласие на обработку моих персональных данных*</span>
+
+        <button class="order__btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="footer__logo" href="#">
+          <img src="images/Logo.png" alt="logo">
+        </a>
+        <nav class="footer__body">
+          <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Акции</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Игра</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Каталог</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Покупателям</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Быстрый заказ</a></li>
+          </ul>
+        </nav>
+        <a class="footer__tel" href="tel:88005516582">8 (800) 551 65 82</a>
+      </div>
+      <div class="footer__date">© 2017 - 2020 - ИДС Боржоми</div>
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
